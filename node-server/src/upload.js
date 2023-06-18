@@ -1,6 +1,6 @@
 import process from 'process'
 import { Web3Storage, getFilesFromPath } from 'web3.storage'
-require('dotenv').config();
+import dotenv from 'dotenv';
 
 //uploads a file to filecoin using web3.storage and returns cid (content identifier)
 async function upload (files) {
