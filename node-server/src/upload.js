@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 
 //uploads a file to filecoin using web3.storage and returns cid (content identifier)
 async function upload (files) {
-  
+  dotenv.config();
   
   const token = process.env.WEB3STORAGE_API_KEY;
 
