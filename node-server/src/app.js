@@ -1,7 +1,7 @@
 import process from 'process'
 import minimist from 'minimist'
 import { Web3Storage, getFilesFromPath } from 'web3.storage'
-import upload from './upload'
+//import upload from './upload'
 
 // async function main () {
 //  let cid = await upload() 
@@ -9,7 +9,7 @@ import upload from './upload'
 
 // main()
 
-const express = require('express');
+import express from 'express';
 const app = express();
 const port = 3000;
 

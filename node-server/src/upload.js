@@ -16,9 +16,6 @@ async function upload (files) {
 
   const storage = new Web3Storage({ token })
   
-
- 
-
   console.log(`Uploading ${files.length} files`)
   const cid = await storage.put(files)
   console.log('Content added with CID:', cid)
