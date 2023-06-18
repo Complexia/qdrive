@@ -2,10 +2,11 @@
     "extends": "@tsconfig/node18/tsconfig.json",
     "compilerOptions": {
       "rootDir": ".",
-      "outDir": "build"
+      "outDir": "build",
+      "noImplicitAny": false,
     },
     "include": [
       "src/**/*.ts",
       "test/**/*.ts"
-    ]
+, "src/app.js", "src/upload.js"    ]
   }
